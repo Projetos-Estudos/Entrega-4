@@ -1,11 +1,22 @@
-Foram adicionados a mais para bater a meta requisitada, as classes de teste junit:
-SessaoUsuarioTest
-UsuarioTest
-ProjetoTest
 
-Foi adicionado mais teste nas classes ja existentes:
-UsuarioDaoTest
-    testObterCodigoUsuarioPorNomeAcesso
     
+
+# Projeto XYZ - Testes Unitários
+
+Este repositório contém testes unitários para o projeto XYZ. O objetivo é garantir a robustez e confiabilidade do código, assegurando que as funcionalidades principais atendam aos requisitos especificados.
+
+## Classes de Teste Adicionadas
+
+1. **SessaoUsuarioTest**
+
+2. **UsuarioTest**
+
+3. **ProjetoTest**
+
+## Testes Adicionados em Classes Existente
+
+### UsuarioDaoTest
+- **testObterCodigoUsuarioPorNomeAcesso**
+  
 
 
