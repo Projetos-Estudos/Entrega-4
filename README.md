@@ -4,6 +4,9 @@
 # Projeto GQS - Testes Unitários
 
 Este repositório contém o relatorio de testes do projeto GQS.
+Foi adicionado mais testes para bater a meta requisita.
+
+## Classes de Teste Adicionas 
 
 1. **SessaoUsuarioTest**
 
