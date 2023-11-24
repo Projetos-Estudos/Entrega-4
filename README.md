@@ -3,7 +3,7 @@
 
 # Projeto GQS - Testes Unitários
 
-Este repositório contém relatorio de testes do projeto GQS.
+Este repositório contém o relatorio de testes do projeto GQS.
 
 1. **SessaoUsuarioTest**
 
