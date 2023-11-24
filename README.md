@@ -1,91 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mycompany</groupId>
-    <artifactId>GQS-A3</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-  
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <exec.mainClass>com.mycompany.gqs.a3.GQSA3</exec.mainClass>
-        <maven.compiler.release>20</maven.compiler.release>
-    </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.formdev</groupId>
-            <artifactId>flatlaf</artifactId>
-            <version>1.0-rc2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.toedter</groupId>
-            <artifactId>jcalendar</artifactId>
-            <version>1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>7.14.0</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>7.14.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.1</version>
-            <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-suite-engine</artifactId>
-        <version>1.9.1</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>io.dropwizard.metrics</groupId>
-        <artifactId>metrics-core</artifactId>
-        <version>4.2.22</version>
-    </dependency>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-suite-api</artifactId>
-            <version>1.10.0</version>
-            <scope>test</scope>
-            <type>jar</type>
-        </dependency>
-         <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest</artifactId>
-            <version>2.2</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-    <build>
-    <resources>
-        <resource>
-            <directory>src/main/java</directory>
-        </resource>
-     </resources>
-         <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.2.1</version>
-            <configuration>
-                <test>SuiteTest.class</test>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-</project>
+Foram adicionados a mais para bater a meta requisitada, as classes de teste junit:
+SessaoUsuarioTest
+UsuarioTest
+ProjetoTest
+
+Foi adicionado mais teste nas classes ja existentes:
+UsuarioDaoTest
+    testObterCodigoUsuarioPorNomeAcesso
+    
+
+
