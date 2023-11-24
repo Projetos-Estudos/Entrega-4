@@ -1,7 +1,7 @@
 
     
 
-# Projeto GQS - Testes Unitários
+# Projeto GQS - Relatorio de Testes
 
 Este repositório contém o relatorio de testes do projeto GQS.
 Foi adicionado mais testes para bater a meta requisita.
